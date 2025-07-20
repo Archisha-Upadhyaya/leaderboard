@@ -6,12 +6,12 @@ A full-stack real-time leaderboard application where users can claim random poin
 ## 🔗 Required Links
 
 ### 1. **Frontend Application**
-- **Live Demo**: [https://leaderboard-app-2024.netlify.app](https://leaderboard-app-2024.netlify.app)
+- **Live Demo**: [https://quiet-alfajores-edafc7.netlify.app/](https://quiet-alfajores-edafc7.netlify.app/)
 - **Local Development**: http://localhost:3003
 - **Frontend Repository**: [https://github.com/yourusername/leaderboard-frontend](https://github.com/yourusername/leaderboard-frontend)
 
 ### 2. **Backend API**
-- **Production API**: [https://leaderboard-api-2024.onrender.com](https://leaderboard-api-2024.onrender.com)
+- **Production API**: [https://leaderboard-backend-zmq3.onrender.com/](https://leaderboard-backend-zmq3.onrender.com/)
 - **Local Development**: http://localhost:5000
 - **Backend Repository**: [https://github.com/yourusername/leaderboard-backend](https://github.com/yourusername/leaderboard-backend)
 
@@ -24,14 +24,14 @@ A full-stack real-time leaderboard application where users can claim random poin
 
 ### ✅ **Frontend (Netlify)**
 - **Status**: Deployed and Live
-- **URL**: https://leaderboard-app-2024.netlify.app
+- **URL**: https://quiet-alfajores-edafc7.netlify.app/
 - **Build Status**: ✅ Successful
 - **Environment Variables**: Configured
 - **Domain**: Custom domain available
 
 ### ✅ **Backend (Render)**
 - **Status**: Deployed and Live
-- **URL**: https://leaderboard-api-2024.onrender.com
+- **URL**: https://leaderboard-backend-zmq3.onrender.com/
 - **Build Status**: ✅ Successful
 - **Environment Variables**: Configured
 - **MongoDB Connection**: ✅ Connected
@@ -200,10 +200,10 @@ A full-stack real-time leaderboard application where users can claim random poin
 
 ## ✅ **Submission Checklist**
 
-- [x] **Frontend Link**: https://leaderboard-app-2024.netlify.app
+- [x] **Frontend Link**: https://quiet-alfajores-edafc7.netlify.app/
 - [x] **GitHub Repository**: https://github.com/yourusername/leaderboard-app
 - [x] **MongoDB Atlas**: https://cloud.mongodb.com/v2/your-cluster-id
-- [x] **Backend API**: https://leaderboard-api-2024.onrender.com
+- [x] **Backend API**: https://leaderboard-backend-zmq3.onrender.com/
 - [x] **All Features Working**: ✅
 - [x] **Responsive Design**: ✅
 - [x] **Real-time Updates**: ✅

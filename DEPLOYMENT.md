@@ -6,12 +6,12 @@ A full-stack real-time leaderboard system built with React.js, Node.js, and Mong
 ## 🔗 Essential Links
 
 ### 1. **Frontend Application**
-- **Live Demo**: [https://leaderboard-app-2024.netlify.app](https://leaderboard-app-2024.netlify.app)
+- **Live Demo**: [https://quiet-alfajores-edafc7.netlify.app/](https://quiet-alfajores-edafc7.netlify.app/)
 - **Local Development**: http://localhost:3003
 - **Frontend Repository**: [https://github.com/yourusername/leaderboard-frontend](https://github.com/yourusername/leaderboard-frontend)
 
 ### 2. **Backend API**
-- **Production API**: [https://leaderboard-api-2024.onrender.com](https://leaderboard-api-2024.onrender.com)
+- **Production API**: [https://leaderboard-backend-zmq3.onrender.com/](https://leaderboard-backend-zmq3.onrender.com/)
 - **Local Development**: http://localhost:5000
 - **Backend Repository**: [https://github.com/yourusername/leaderboard-backend](https://github.com/yourusername/leaderboard-backend)
 
@@ -37,7 +37,8 @@ A full-stack real-time leaderboard system built with React.js, Node.js, and Mong
    - Set publish directory: `frontend/build`
    - Set environment variables:
      ```
-     REACT_APP_API_URL=https://leaderboard-api-2024.onrender.com
+     REACT_APP_API_URL=https://leaderboard-backend-zmq3.onrender.com/api
+     REACT_APP_SOCKET_URL=https://leaderboard-backend-zmq3.onrender.com
      ```
 
 ### **Backend Deployment (Render)**
@@ -50,7 +51,7 @@ A full-stack real-time leaderboard system built with React.js, Node.js, and Mong
 
 2. **Deploy to Render:**
    - Connect your GitHub repository to Render
-   - Set build command: `cd backend && pnpm install`
+   - Set build command: `cd backend && pnpm install --no-frozen-lockfile`
    - Set start command: `cd backend && pnpm start`
    - Set environment variables:
      ```
